@@ -6,3 +6,4 @@ ENDPOINT = 'jsonapicbv'
 response = requests.get(BASE_URL + ENDPOINT)
 responsed_data = response.json()
 print('Employe number:',responsed_data["eno"])
+print('Employe NAME:',responsed_data["ename"])
